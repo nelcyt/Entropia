@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +7,38 @@
 </head>
 <body>
     <header>
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="logo">
-                <a href="index.html">
-                    <img class="center" src="medias/trou_noir_logo.png" href="index.html">
-                </a>
-            </div>
-
+        <div class="menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img class="center" src="medias/trou_noir_logo.png" alt="Logo">
+            </a>
+        </div>
         <div class="langue">
         </div>
-        
-
-
-
     </header>
-
-
-
-
+    <nav id="sideMenu" class="side-menu">
+        <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
+        <div class="menu-logo">entropia.</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
 
     <div id="trou_noir">
         <video autoplay loop muted>
             <source src="medias/trou_noir.mp4" type="video/mp4">
         </video>
     </div>
+
+    <script>
+        // Fonction pour ouvrir/fermer le menu
+        function toggleMenu() {
+            document.getElementById("sideMenu").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

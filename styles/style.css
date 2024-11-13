@@ -1,6 +1,7 @@
 body {
-    margin:0 ;
-    padding:0
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,18 +13,19 @@ header {
     color: white;
     position: relative;
     border-bottom: solid 1px white;
+    z-index: 20;
 }
 
-/* Style pour le menu */
+
 .menu {
     flex: 1;
     display: flex;
     align-items: center;
-    font-size: 20px;
-    margin-left: 35px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 21;
 }
 
-/* Style pour le logo centré */
 .logo {
     position: absolute;
     left: 50%;
@@ -33,22 +35,63 @@ header {
     align-items: center;
 }
 
-/* Style pour l'icône du logo */
 .logo img {
-    height: 64px; /* Ajustez la hauteur du logo si nécessaire */
+    height: 64px; 
     width: auto;
 }
 
+.side-menu {
+    width: 250px;
+    height: 100%;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 19;
+}
+
+.side-menu.active {
+    left: 0;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.side-menu a:hover {
+    background-color: #333;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-logo {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 #trou_noir {
     position: relative;
+    z-index: 10;
 }
 
-
 #trou_noir video {
-    height:100vh ;
-    width:100% ;
-    background-position: absolute;
-    z-index:10;
+    height: 100vh;
+    width: 100%;
     object-fit: cover;
 }
