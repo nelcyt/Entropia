@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9a44d1dbf1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="medias/trou_noir_logo_32x32.png" type="image/png">
     <title>Entropia</title>
 </head>
 <body>
@@ -19,8 +20,12 @@
         </div>
     </header>
     <nav id="sideMenu" class="side-menu">
-        <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
-        <div class="menu-logo">entropia.</div>
+        <div class="menu-header">
+            <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
+            <div class="menu-logo">
+                <img src="medias/logo_blanc.png" alt="Logo Entropia">
+            </div>
+        </div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Projects</a></li>
@@ -29,7 +34,7 @@
     </nav>
 
     <div id="trou_noir">
-        <video autoplay loop muted>
+        <video autoplay loop muted disablepictureinpicture controlslist="nofullscreen nodownload noremoteplayback">
             <source src="medias/trou_noir.mp4" type="video/mp4">
         </video>
     </div>
