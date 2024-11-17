@@ -4,6 +4,9 @@
     <script src="https://kit.fontawesome.com/9a44d1dbf1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="medias/trou_noir_logo_32x32.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Entropia</title>
 </head>
 <body>
@@ -21,16 +24,22 @@
     </header>
     <nav id="sideMenu" class="side-menu">
         <div class="menu-header">
-            <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
             <div class="menu-logo">
                 <img src="medias/logo_blanc.png" alt="Logo Entropia">
             </div>
+            <div class="close-btn-container">
+                <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
+            </div>
+            
         </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
+            <ul>
+                <li><a href="#" class="menu-link home-link">Home</a></li>
+                <li><a href="#" class="menu-link projects-link">Projects</a></li>
+                <li><a href="#" class="menu-link about">About</a></li>
+            </ul>
+        <div class="footer-text">
+            All rights reserved © entropia.
+        </div>
     </nav>
 
     <div id="trou_noir">
