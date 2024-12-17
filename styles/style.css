@@ -21,8 +21,8 @@ header {
     background-color: #0C0C0C;
     color: white;
     position: relative;
-    border-bottom: solid 1px white;
-    height: 90px; 
+    border-bottom: solid 0.1vw white;
+    height: 4.4vw; 
     z-index: 20;
 }
 
@@ -32,17 +32,16 @@ header {
     flex: 1;
     display: flex;
     align-items: center;
-    font-size: 24px;
     cursor: pointer;
     z-index: 21;
-    margin-left: 30px; 
-    height: 100%;
-    width: 100%;
+    margin-left: 1.5vw; 
+    height: 0;
+    width: 0;
 }
 
 .menu img {
     
-    width: 30px; 
+    width: 1.7vw; 
     height: auto; 
     margin: 0; 
     display: block; 
@@ -59,17 +58,17 @@ header {
 }
 
 .logo img {
-    height: 82px; 
+    height: 4.3vw; 
     width: auto;
 }
 
 .side-menu {
-    width: 500px;
+    width: 26vw;
     height: 100%;
     background-color: #0C0C0C;
     position: fixed;
     top: 0;
-    left: -500px;
+    left: -26vw;
     transition: 0.3s;
     z-index: 20;
     display: flex;
@@ -81,11 +80,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 20px; 
-    padding-bottom: 0px;
-    height: 90px ;
-    border-bottom: 1px solid #474747;
+    width: 26vw;
+    padding: 0 1vw; 
+    padding-bottom: 0;
+    height: 4.4vw ;
+    border-bottom: 0.1vw solid #2b2b2b;
     position: relative;
     box-sizing: border-box;
     
@@ -98,35 +97,34 @@ header {
 .side-menu ul {
     list-style: none;
     padding: 0;
-    width: 100%;
-    padding-left: 0px ;
+    width: 26vw;
+    padding-left: 0 ;
     margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 .side-menu ul li {
-    width: 100%;
-    border-bottom: 1px solid #474747 ;
+    width: 26vw;
+    border-bottom: 0.1vw solid #2b2b2b ;
     box-sizing: border-box;
-    padding: 10px 0;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
     text-align: left;  
-    padding-left: 40px;
+    padding-left: 2vw;
 }
 
 
-
-
 .close-btn-container {
-    font-size: 30px;
+    font-size: 1vw;
     position: absolute;
     top: 0; 
     right: 0; 
-    width: 80px; 
-    height: 80px; 
+    width: 4vw; 
+    height: 4vw ;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -134,7 +132,7 @@ header {
 }
 
 .close-btn {
-    font-size: 32px; 
+    font-size: 1.7vw; 
     font-weight: 100;
     color: #fff;
     text-decoration: none;
@@ -155,8 +153,8 @@ header {
 .menu-link {
     text-decoration: none; 
     color: #fff;
-    font-size: 18px;
-    padding: 10px 0; 
+    font-size: 0.9vw;
+    padding: 0.4vw 0; 
     display: inline-block; 
     position: relative; 
 }
@@ -165,7 +163,7 @@ header {
 .menu-link::after {
     content: '';
     position: absolute;
-    bottom: 4px; 
+    bottom: 0.2vw ;
     left: 50%; 
     transform: translateX(-50%) scaleX(0); 
     transform-origin: center; 
@@ -184,22 +182,22 @@ header {
     display: flex;
     align-items: center; 
     height: 100%; 
-    margin-left: -20px;
+    margin-left: -1vw;
 }
 
 .menu-logo img {
-    width: 148px; 
+    width: 8vw; 
     height: auto;
-    padding-left: 30px;
+    padding-left: 1.7vw;
     margin: 0; 
 }
 
 .footer-text {
     position: absolute;
-    bottom: 20px; 
-    right: 20px; 
+    bottom: 1vw; 
+    right: 1vw; 
     color: #fff;  
-    font-size: 12px; 
+    font-size: 0.6vw; 
     font-weight: 200;
 }
 
@@ -211,8 +209,8 @@ header {
 }
 
 #trou_noir video {
-    height: 100vh;
-    width: 100%;
+    height: 51vw;
+    width: 100vw;
     object-fit: cover;
 }
 
@@ -222,7 +220,7 @@ header {
     justify-content: center; 
     align-items: flex-start;    
     background-color: #f4f4f4; 
-    height: 60vh; 
+    height: 30vw; 
     box-sizing: border-box;
     padding-left: 10%; 
     padding-right: 10%; 
@@ -236,7 +234,7 @@ header {
     align-items: center; 
     width: 100%;
     max-width: 100%; 
-    padding-top: 20px;
+    padding-top: 1vw;
 }
 
 
@@ -247,8 +245,8 @@ header {
     width: auto; 
     max-width: 45%; 
     height: auto; 
-    padding-right: 20px; 
-    padding-top: 10px;
+    padding-right: 2vw; 
+    padding-top: 1vw;
 }
 
 
@@ -268,8 +266,8 @@ header {
     width: 45%; 
     flex-grow: 1; 
     height: 100%; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
+    padding-top: 1vw; 
+    padding-bottom: 1vw; 
 }
 
 
@@ -282,7 +280,7 @@ header {
 }
 
 .description br {
-    margin-bottom: 15px;
+    margin-bottom: 1.5vw;
 }
 
 
@@ -290,10 +288,10 @@ header {
     display: flex;  
     justify-content: space-evenly;  
     align-items: center;  
-    height: 20vh;  
+    height: 20vw;  
     width: 100vw;  
-    padding-bottom: 30px;
-    margin-top: 80px;
+    padding-bottom: 3vw;
+    margin-top: 6vw;
 }
 
 
@@ -302,36 +300,35 @@ header {
     display: flex;  
     justify-content: center; 
     align-items: center;  
-    width: 25%;  
-    padding: 10px 50px; 
+    width: 25vw ;  
+    padding: 2vw 5vw; 
     box-sizing: border-box;  
     height: auto;  
-    min-height: 200px;  
-    border-radius: 40px;  
+    min-height: 1vw;  
+    border-radius: 2vw;  
 }
 
 
 .logo-box img {
     max-width: 100%;  
-    max-height: 80%;  
+    max-height: 90%;  
     object-fit: contain;  
 }
 
 
 .separator-bar {
     width: 100%; 
-    height: 2px; 
+    height: 0.1vw; 
     background-color: #cecece; 
-    margin-top: 90px; 
-    margin-bottom: 90px;
+    margin-top: 6vw; 
+    margin-bottom: 6vw;
 }
 
 
 .the_futur-container {
     display: flex;
     justify-content: center; 
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 6vw;
 }
 
 .the_futur-container img {
@@ -342,8 +339,8 @@ header {
 }
 
 .full-width-box {
-    width: 100%;
-    height: 65%;
+    width: 100vw;
+    height: 32vw;
     background-color: black;
     color: white;
     box-sizing: border-box;
@@ -367,30 +364,30 @@ header {
 }
 
 .title-container h2 {
-    font-size: 250%;
-    margin-left: 60px;
-    margin-bottom: 10px;
-    margin-top: 40px;
+    font-size: 2.5vw;
+    margin-left: 3vw;
+    margin-bottom: 0.8vw;
+    margin-top: 2vw;
     line-height: 1; 
 }
 
 .divider {
-    width: 50px;
-    height: 4px;
+    width: 3vw;
+    height: 0.2vw;
     background-color: white;
     margin-bottom: 0; 
-    margin-left: 60px;
+    margin-left: 3.2vw;
     margin-top: 0;
 }
 
 .aiming-text {
     text-align: right;
-    font-size: 100%;
+    font-size: 0.9vw;
     line-height: 1.5;
     max-width: 60%; 
     margin-right: 10%; 
     font-weight: light;
-    margin-top: 60px;
+    margin-top: 3vw;
 
 }
 
@@ -404,49 +401,47 @@ header {
 .box-container {
     display: flex;
     justify-content: center; 
-    gap: 50px;
+    gap: 2.5vw;
 }
 
 .centered-box {
-    width: 300px; 
-    height: 250px; 
+    width: 15vw; 
+    height: 13vw; 
     background-color: #414141;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
 }
 
 .centered-box i {
-    margin-bottom: 20px;  
-    font-size: 50px;  
-    margin-top: -10px;  
+    font-size: 3vw;  
+    margin-top: 10%;  
 }
 
 .centered-box p {
     margin: 0;
-    font-size: 80%;  
+    font-size: 0.9vw;  
     font-weight: normal;
-    margin-top: 40px;  
-    margin-left: 10px ;
-    margin-right: 10px;
+    margin-top: 3vw;  
+    margin-left: 1vw ;
+    margin-right: 1vw;
 }
 
 .bottom_bar {
     width: 100%;  
     height: 1px;  
     background-color: #363636;  
-    margin-top: 20px;  
-    margin-bottom: 20px;
+    margin-top: 1vw;  
+    margin-bottom: 1vw;
 }
 
 
 .title-section {
-    margin-top: 40px;
+    margin-top: 2vw;
     text-align: left; 
     margin-left: 10%;
     max-width:46%;
@@ -454,7 +449,7 @@ header {
 }
 
 .section-title {
-    font-size: 220%; 
+    font-size: 2vw; 
     font-weight: bold; 
     color: black; 
     margin-bottom: 0;
@@ -463,10 +458,10 @@ header {
 
 .underline {
     width: 100%; 
-    height: 2px; 
+    height: 0.2vw; 
     background-color: #333; 
     text-align: left; 
-    margin-bottom: 90px;
+    margin-bottom: 4vw;
     display: inline-block;
 }
 
@@ -474,8 +469,8 @@ header {
 .boxes-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    margin-top: 30px; 
+    gap: 2vw; 
+    margin-top: 1vw; 
     padding-left: 10vw;
     margin-bottom: 6vw;
 }
@@ -483,7 +478,7 @@ header {
 .box {
     display: flex; 
     background-color: #f4f4f4;
-    border-radius: 10px; 
+    border-radius: 1vw; 
     overflow: hidden; 
     height: 10vw;
 }
@@ -495,7 +490,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #d9d9d9; 
-    border-radius: 10px; 
+    border-radius: 1vw; 
     overflow: hidden; 
 }
 
@@ -506,8 +501,8 @@ header {
 }
 
 .box-title-container {
-    margin-top: 3%; 
-    margin-left: 20px; 
+    margin-top: 1vw; 
+    margin-left: 1vw; 
     display: flex;
     flex-direction: column; 
     justify-content: flex-start; 
@@ -519,7 +514,7 @@ header {
 .box-title {
     font-size: 1.4vw; 
     font-weight: 600;
-    margin: 0 0 10px 0; 
+    margin: 0 0 1vw 0; 
     text-align: left;
 }
 
@@ -536,14 +531,14 @@ header {
 .footer {
     background-color: black;
     color: white;
-    padding: 20px 0;
+    padding: 1vw 0;
     display: flex;
     justify-content: start;
     align-items: center;
     position: relative;
     width: 100%;
     bottom: 0;
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 
 footer .footer-left {
@@ -559,7 +554,7 @@ footer .footer-left {
 .footer img {
     width: 11vw; 
     height: auto; 
-    margin-bottom: 10px; 
+    margin-bottom: 1vw; 
 }
 
 .footer a {
@@ -574,14 +569,14 @@ footer .footer-left {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-top: 15px;
+    margin-top: 1vw;
     justify-content: center;
 }
 
 .more-content-text {
-    margin-bottom: 2vw; 
-    font-size: 1.2vw;
-    font-weight: 500;
+    margin-bottom: 1.5vw; 
+    font-size: 1.1vw;
+    font-weight: 400;
     text-align: left;
     margin-top: 0
 
@@ -593,7 +588,7 @@ footer .footer-left {
     flex-direction: row;
     justify-content: space-between;
     width: auto; 
-    gap: 10px; 
+    gap: 1vw; 
     margin-left: 15vw; 
     align-items: flex-start;
     margin-bottom: 6vw;
@@ -630,9 +625,7 @@ footer .footer-column-subtitle {
     position: relative; 
     overflow: hidden; 
     box-sizing: border-box; 
-    padding-left: 10px; 
-    padding-right: 10px; 
-    margin-bottom: 1px;
+    margin-bottom: 0.15vw;
     width: fit-content;
 }
 
@@ -644,7 +637,7 @@ footer .footer-column-subtitle::after {
     bottom: 0;
     left : 50% ;
     width: 0%;
-    height: 1px;
+    height: 0.1vw;
     background-color: #fff;
     transform: translateX(-50%);
     transition: width 0.3s ease ;
@@ -652,7 +645,7 @@ footer .footer-column-subtitle::after {
 }
 
 .footer-column-subtitle:hover:after {
-    width: 80%;
+    width: 100%;
 }
 
 .footer-column-subtitle:hover {
@@ -661,14 +654,14 @@ footer .footer-column-subtitle::after {
 
 .social-icons {
     display: flex;
-    gap: 15px; 
+    gap: 0.8vw; 
     align-items: center; 
 }
 
 
 .social-icons .icon-container {
-    width: 2.5vw; 
-    height: 2.5vw;
+    width: 2.2vw; 
+    height: 2.2vw;
     border-radius: 50%; 
     background-color: black; 
     border: 1px solid white; 
@@ -681,7 +674,7 @@ footer .footer-column-subtitle::after {
 
 
 .social-icons .icon-container i {
-    font-size: 1.2vw; 
+    font-size: 1vw; 
     color: white; 
     transition: color 0.3s ease;
 }
@@ -694,31 +687,33 @@ footer .footer-column-subtitle::after {
     color: black; 
 }
 
-
 .footer-button-container {
     display: inline-flex; 
     align-items: center; 
     justify-content: flex-end; 
     width: auto; 
-    margin-left: 20px; 
+    margin-left: 1vw; 
 }
-
 
 .contact-button {
     font-family: 'Inter', sans-serif;
     font-size: 1vw; 
-    font-weight: 500;
+    font-weight: 400;
     color: white;
     background-color: #4a4a4a; 
     border: 2px solid #4a4a4a;
-    border-radius: 5px;
-    padding: 10px 20px; 
+    border-radius: 0.5vw;
+    padding: 0.5vw 1.5vw; 
     cursor: pointer;
     transition: all 0.5s ease; 
     position: relative;
     overflow: hidden; 
-    min-width: 180px; 
+    min-width: 10vw; 
     text-align: center;
+    text-decoration: none; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-button:hover {
@@ -728,7 +723,16 @@ footer .footer-column-subtitle::after {
     transform: scale(1.05); 
 }
 
-.contact-button:hover::after {
+.contact-button .button-text {
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.contact-button:hover .button-text {
+    opacity: 0; 
+}
+
+.contact-button::after {
     content: "3ntrop1a@proton.me"; 
     position: absolute;
     top: 50%;
@@ -737,29 +741,14 @@ footer .footer-column-subtitle::after {
     color: white;
     font-size: 0.9vw;
     font-weight: 400;
-    opacity: 1;
-    white-space: nowrap; 
-}
-
-.contact-button span {
-    opacity: 1; 
-    transition: opacity 0.3s ease; 
-}
-
-.contact-button:hover span {
     opacity: 0; 
+    white-space: nowrap; 
+    transition: opacity 0.3s ease;
 }
 
-.contact-button span {
-    display: block;
+.contact-button:hover::after {
+    opacity: 1; 
 }
-
-.contact-button::after {
-    content: ""; 
-    opacity: 0;
-    transition: opacity 0.5s ease; 
-}
-
 
 
 .footer-separator {
@@ -767,7 +756,7 @@ footer .footer-column-subtitle::after {
     bottom: 0; 
     left: 0; 
     width: 100%; 
-    height: 1px; 
+    height: 0.05vw; 
     background-color: #363636; 
     margin-bottom: 2vw;
 }
@@ -779,7 +768,6 @@ footer .footer-copyright {
     text-align: center; 
     font-size: 0.6vw; 
     color: #ffffff; 
-    margin-top: 10px; 
-    padding-bottom: 10px; 
+    padding-bottom: 1vw; 
     left: 50%
 }
