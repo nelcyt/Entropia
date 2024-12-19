@@ -208,7 +208,7 @@ header {
 }
 
 .trou_noir-image {
-    width: 100%; 
+    width: 100vw; 
     height: 39vw; 
     max-height: 39vw;
     display: flex;
@@ -226,8 +226,8 @@ header {
 
 .trou_noir-text {
     position: absolute; 
-    top: 50%; 
-    left: 7%; 
+    top: 22vw; 
+    left: 7vw; 
     transform: translateY(-50%); 
     color: white; 
     text-align: left; 
@@ -242,7 +242,7 @@ header {
 
 .trou_noir-text p {
     font-size: 1.25vw; 
-    margin-top: 1rem; 
+    margin-top: 0.5vw; 
     line-height: 1.6; 
     font-weight: 200;
 }
@@ -251,7 +251,7 @@ header {
     display: flex;
     flex-direction: row; 
     align-items: flex-start; 
-    gap: 2rem; 
+    gap: 3vw; 
     width: 100%; 
     margin-left: 7vw; 
     margin-top: 10vw;
@@ -264,13 +264,13 @@ header {
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
-    gap: 0.5rem; 
+    gap: 0.5vw; 
     max-width: 30%;
 }
 
 
 .section-title {
-    font-size: 2.2vw; 
+    font-size: 3vw; 
     margin: 0; 
     font-weight: bold;
     color: black; 
@@ -278,8 +278,8 @@ header {
 
 
 .separator {
-    width: 100px; 
-    height: 4px; 
+    width: 4vw; 
+    height: 0.3vw; 
     background-color: black; 
 }
 
@@ -292,10 +292,10 @@ header {
 
 
 .section-text p {
-    font-size: 20px; 
+    font-size: 1vw; 
     line-height: 1.6; 
     color: black; 
-    margin: 0; 
+    margin-top: 2vw; 
     max-width: 60vw;
 }
 
@@ -316,14 +316,13 @@ header {
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
-    gap: 1rem; 
     width: 100%; 
     text-align: left; 
 }
 
 
 .text-zone-title {
-    font-size: 28px; 
+    font-size: 2vw; 
     font-weight: bold;
     color: black;
     font-weight: 650;
@@ -331,11 +330,12 @@ header {
 
 
 .text-zone-content {
-    font-size: 20px; 
+    font-size: 1vw; 
     line-height: 1.6; 
     color: black; 
     width: 85vw; 
     padding-left: 0; 
+    margin-top: 0;
 }
 
 .separator-bar {
@@ -362,7 +362,6 @@ header {
     flex-direction: row; 
     align-items: center; 
     justify-content: flex-start; 
-    gap: 2rem; 
     width: 100%; 
     height: 10vw;
     margin-top: 6vw;
@@ -372,24 +371,32 @@ header {
     width: 20vw;
     max-width: 20vw;
     height: auto;
-    margin-bottom: 1rem; 
+    margin-bottom: 1vw; 
 }
 
 .text-zones-section2 .title-section {
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
-    gap: 0.5rem; 
     position: relative;
     margin-left: 3vw;
     margin-top: 0;
     margin-bottom: 0;
 }
 
+.text-zones-section2 .text-zone-content {
+    font-size: 1vw; 
+    line-height: 1.6; 
+    color: black; 
+    width: 85vw; 
+    padding-left: 0; 
+    margin-top: 10;
+}
+
 .title {
     text-align: left;
     font-size: 2vw;
-    padding-bottom: 0.4vw;
+    padding-bottom: 1vw;
     margin: 0 ;
     position: relative;
     display: inline-block;
@@ -417,15 +424,15 @@ header {
 
 .underline {
     width: 35vw; 
-    height: 4px; 
+    height: 0.2vw; 
     background-color: black; 
-    margin-top: 1rem; 
-    margin-bottom: 2rem; 
+    margin-top: 0; 
+    margin-bottom: 1vw; 
 }
 
 
 .section-text {
-    font-size: 20px; 
+    font-size: 1vw; 
     line-height: 1.6; 
     color: black; 
     text-align: left; 
