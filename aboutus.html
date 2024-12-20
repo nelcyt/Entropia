@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9a44d1dbf1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/aboutusstyle.css">
+    <link rel="icon" href="medias/trou_noir_logo_32x32.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<title>About us | entropia </title>
+</head>
+    <body>
+        <header>
+            <div class="menu" onclick="toggleMenu()">
+                <img src="medias/bars-svgrepo-com.svg" alt="menu-bars">
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img class="center" src="medias/trou_noir_logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="langue">
+            </div>
+        </header>
+        <nav id="sideMenu" class="side-menu">
+            <div class="menu-header">
+                <div class="menu-logo">
+                    <img src="medias/logo_blanc.png" alt="Logo Entropia">
+                </div>
+                <div class="close-btn-container">
+                    <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
+             </div>
+            
+            </div>
+                <ul>
+                    <li><a href="index.html" class="menu-link home-link">Home</a></li>
+                    <li><a href="projects.html" class="menu-link projects-link">Projects</a></li>
+                    <li><a href="aboutus.html" class="menu-link about">About us</a></li>
+                </ul>
+            <div class="footer-text">
+                All rights reserved © entropia.
+            </div>
+        </nav>
+        <main>
+            <div class="trou_noir-image">
+                <img src="medias/trou_noir_aboutus.jpg" alt="trou noir Image">
+                <div class="trou_noir-text">
+                    <h1>About us</h1>
+                    <p>Who are we ?</p>
+                </div>
+            </div>
+            <section class="title-section">
+                <div class="title-container">
+                    <h2 class="section-title">Hi I'm Nel !</h2>
+                    <div class="separator"></div>
+                </div>
+            </section>
+            <div class="text-zones-section">
+                <div class="text-zone">
+                    <p class="text-zone-content">I'm in my first year of networks, telecommunications and cybersecurity studying. My aim with this website is to give shape to the business I want to create while carrying out a project required of me for my studies. As mentioned in the other pages, Entropia's aim is to teach everyone about cybersecurity through field intrusion attempts (and more traditional means too) and debriefing/awareness-raising about dangerous actions in companies. The aim of this venture is to raise awareness of the dangers of cyberspace, and create a global digital consciousness. </p>
+                </div>
+                <div class="text-zone">
+                    <p class="text-zone-content">I've always had a passion for computers, space and art. Entropia also aims to bring all these passions together under one roof. Because I think they may fit together very well to build something for passionate people like me. So anyone with talent but no one to guide them and give them a clear sense of purpose can work together to create a more beautiful and secure cyberspace. </p>
+                </div>
+                <div class="text-zone">
+                    <p class="text-zone-content">Entropia is really a long-term project that will guide me through several stages of my life. In fact, I'd like to go for an engineering degree and gain experience in cybersecurity via aerospace, so entropia is a long way from being set up. That's why I see this project as a source of motivation and a goal to achieve in order to fulfill my ambitions. A project in which I can grow along with it.</p>
+                </div>
+            </div> 
+        <footer class="footer">
+            <div class="footer-left">
+                <img src="medias/logo_blanc.png" alt="Footer Logo"> 
+                <div class="footer-content">
+                    <p class="more-content-text">More content about us</p> 
+                    <div class="social-icons">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                     <div class="icon-container">
+                         <i class="fa-brands fa-tiktok"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="footer-right">
+                    <div class="footer-column">
+                        <p class="footer-column-title">You can navigate here</p>
+                        <a href="index.html" class="footer-column-subtitle">Home</a>
+                        <a href="projects.html" class="footer-column-subtitle">Projects</a>
+                        <a href="aboutus.html" class="footer-column-subtitle">About us</a>
+                    </div>
+                    <div class="footer-column">
+                        <p class="footer-column-title">The tools we use</p>
+                        <a href="https://figma.com" target="_blank" class="footer-column-subtitle tool">Figma</a>
+                        <a href="https://adobe.com" target="_blank" class="footer-column-subtitle tool">Adobe</a>
+                        <a href="https://github.com/nelcyt/Entropia" target="_blank" class="footer-column-subtitle tool">Github</a>
+                        <a href="https://vscodium.com" target="_blank" class="footer-column-subtitle tool">VsCodium</a>
+                        <a href="https://kali.org" target="_blank" class="footer-column-subtitle tool">Kali</a>
+                        <a href="https://openmediavault.org" target="_blank" class="footer-column-subtitle tool">OMV</a>
+                    </div>
+                </div>
+                <div class="footer-button-container">
+                    <a href="mailto:3ntrop1a@proton.me" class="contact-button">
+                    <span class="button-text">Contact us</span>
+                    </a>
+                </div>
+                <div class="footer-separator"></div>
+                    <div class="footer-copyright">
+                        © entropia. 2024
+                    </div>
+            </footer>
+        </main>
+        <script>
+            function toggleMenu() {
+                document.getElementById("sideMenu").classList.toggle("active");
+                }
+        </script>
+    </body>
+</html>
